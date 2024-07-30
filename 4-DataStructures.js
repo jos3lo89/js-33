@@ -44,3 +44,12 @@ console.log("json string ->", myStringObj);
 
 let MyObjJson = JSON.parse(myStringObj);
 console.log("json string parseado ->", MyObjJson);
+
+/* ******************* INDEX COLLECTION ******************* */
+
+const arr1 = new Array("element0", "element1", /* …, */ "elementN");
+const arr2 = Array("element0", "element1", /* …, */ "elementN");
+const arr3 = ["element0", "element1", /* …, */ "elementN"];
+
+console.log(arr3.length); // 3
+console.log(arr3[0]); // element0
